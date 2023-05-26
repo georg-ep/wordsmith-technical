@@ -1,6 +1,6 @@
 import express, { Express, Request, Response, NextFunction } from 'express';
 
-const app: Express = express();
+export const app: Express = express();
 app.use(express.json());
 
 interface Account {
